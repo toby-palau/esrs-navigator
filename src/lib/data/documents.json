@@ -1,0 +1,98 @@
+[
+	{
+		"title": "ESRS 1",
+		"description": "General requirements",
+		"imageUrl": "https://www.esrs.eu/wp-content/uploads/2019/03/ESRS-Logo-2019-300x300.png",
+		"category": "General",
+		"slug": "esrs-1",
+		"fileName": "ESRS_1.csv"
+	},
+	{
+		"title": "ESRS 2",
+		"description": "General disclosures",
+		"imageUrl": "https://www.esrs.eu/wp-content/uploads/2019/03/ESRS-Logo-2019-300x300.png",
+		"category": "General",
+		"slug": "esrs-2",
+		"fileName": "ESRS_2.csv"
+	},
+	{
+		"title": "ESRS E1",
+		"description": "Climate change",
+		"imageUrl": "https://www.esrs.eu/wp-content/uploads/2019/03/ESRS-Logo-2019-300x300.png",
+		"category": "Environment",
+		"slug": "esrs-e1",
+		"fileName": "ESRS_E1.csv"
+	},
+	{
+		"title": "ESRS E2",
+		"description": "Pollution",
+		"imageUrl": "https://www.esrs.eu/wp-content/uploads/2019/03/ESRS-Logo-2019-300x300.png",
+		"category": "Environment",
+		"slug": "esrs-e2",
+		"fileName": "ESRS_E2.csv"
+	},
+	{
+		"title": "ESRS E3",
+		"description": "Water and marine resources",
+		"imageUrl": "https://www.esrs.eu/wp-content/uploads/2019/03/ESRS-Logo-2019-300x300.png",
+		"category": "Environment",
+		"slug": "esrs-e3",
+		"fileName": "ESRS_E3.csv"
+	},
+	{
+		"title": "ESRS E4",
+		"description": "Biodiversity and ecosystems",
+		"imageUrl": "https://www.esrs.eu/wp-content/uploads/2019/03/ESRS-Logo-2019-300x300.png",
+		"category": "Environment",
+		"slug": "esrs-e4",
+		"fileName": "ESRS_E4.csv"
+	},
+	{
+		"title": "ESRS E5",
+		"description": "Resource use and circular economy",
+		"imageUrl": "https://www.esrs.eu/wp-content/uploads/2019/03/ESRS-Logo-2019-300x300.png",
+		"category": "Environment",
+		"slug": "esrs-e5",
+		"fileName": "ESRS_E5.csv"
+	},
+	{
+		"title": "ESRS S1",
+		"description": "Own workforce",
+		"imageUrl": "https://www.esrs.eu/wp-content/uploads/2019/03/ESRS-Logo-2019-300x300.png",
+		"category": "Social",
+		"slug": "esrs-s1",
+		"fileName": "ESRS_S1.csv"
+	},
+	{
+		"title": "ESRS S2",
+		"description": "Workers in the value chain",
+		"imageUrl": "https://www.esrs.eu/wp-content/uploads/2019/03/ESRS-Logo-2019-300x300.png",
+		"category": "Social",
+		"slug": "esrs-s2",
+		"fileName": "ESRS_S2.csv"
+	},
+	{
+		"title": "ESRS S3",
+		"description": "Affected communities",
+		"imageUrl": "https://www.esrs.eu/wp-content/uploads/2019/03/ESRS-Logo-2019-300x300.png",
+		"category": "Social",
+		"slug": "esrs-s3",
+		"fileName": "ESRS_S3.csv"
+	},
+	{
+		"title": "ESRS S4",
+		"description": "Consumers and end users",
+		"imageUrl": "https://www.esrs.eu/wp-content/uploads/2019/03/ESRS-Logo-2019-300x300.png",
+		"category": "Social",
+		"slug": "esrs-s4",
+		"fileName": "ESRS_S4.csv"
+	},
+	{
+		"title": "ESRS G1",
+		"description": "Business conduct",
+		"imageUrl": "https://www.esrs.eu/wp-content/uploads/2019/03/ESRS-Logo-2019-300x300.png",
+		"category": "Governance",
+		"slug": "esrs-g1",
+		"fileName": "ESRS_G1.csv"
+	}
+]
