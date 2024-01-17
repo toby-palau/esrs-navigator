@@ -26,16 +26,14 @@
 	<div class="collapse-content">
 		<div>
 			<div class="my-2">
-				<p>
+				<!-- <p>
 					<b>{'Summary: '}</b>{@html renderSearchableText(
 						"The European Sustainability Reporting Standards (ESRS) help companies report on important sustainability issues. They focus on environmental, social, and governance topics. Companies don't have to report on issues they find unimportant. The aim is to make it clear how companies affect people and the environment. ESRS also guides how to prepare these reports.",
 						searchQuery
 					)}
-				</p>
-			</div>
-			<div class="my-2">
+				</p> -->
 				<p>
-					<b>{'Implementation steps: '}</b>{'...'}
+					<b>{'Summary / Implementation steps: '}</b>{'...'}
 				</p>
 			</div>
 			<div class="my-2">
