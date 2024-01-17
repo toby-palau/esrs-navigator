@@ -2,7 +2,7 @@
 export default {
 	content: ['./src/**/*.{html,js,ts,svelte}'],
 	daisyui: {
-		themes: ['light', 'dark', 'nord', 'bumblebee', 'cyberpunk', 'lofi']
+		themes: ['light', 'dark', 'nord', 'dark']
 	},
 	theme: {
 		extend: {

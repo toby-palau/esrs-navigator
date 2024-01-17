@@ -43,7 +43,7 @@
 		<div class="relative w-1/2">
 			<div class="absolute pointer-events-none h-full flex items-center justify-center p-5">
 				<svg
-					class="w-4 h-4 text-secondary"
+					class="w-4 h-4 text-primary"
 					aria-hidden="true"
 					xmlns="http://www.w3.org/2000/svg"
 					fill="none"
@@ -61,7 +61,7 @@
 			<input
 				type="search"
 				id="default-search"
-				class="w-full input input-bordered input-secondary pl-12 placeholder:text-secondary"
+				class="w-full input input-bordered input-primary pl-12 placeholder:text-primary"
 				placeholder="Search..."
 				required
 				bind:value={searchQuery}

@@ -11,7 +11,7 @@
 	// };
 </script>
 
-<div class="collapse collapse-plus hover:bg-accent border border-primary bg-base-300 my-2">
+<div class="collapse collapse-plus border border-primary bg-base-200 hover:bg-base-300 my-2">
 	<input type="checkbox" checked={expanded} />
 	<div class="collapse-title text-md flex flex-row justify-between items-center">
 		<div class="flex-3">
