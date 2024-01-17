@@ -75,8 +75,12 @@
 			<p>Loading...</p>
 		{:then chapters}
 			{#key searchQuery}
-				{#each filteredChapters(chapters, searchQuery) as chapter}
-					<DisclosureRequirement {chapter} {searchQuery} />
+				{#each filteredChapters(chapters, searchQuery) as chapter, index}
+					<DisclosureRequirement
+						{chapter}
+						{searchQuery}
+						expanded={searchQuery.length >= 2 && index === 0}
+					/>
 				{/each}
 			{/key}
 		{:catch error}

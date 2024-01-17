@@ -1,5 +1,5 @@
 export const renderSearchableText = (text: string, searchQuery: string) => {
-	if (!searchQuery) return text;
+	if (searchQuery.length < 2) return text;
 	const re = new RegExp(searchQuery, 'ig');
 	const matches: any[] = [...text.matchAll(re)];
 	for (const match of matches) {

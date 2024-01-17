@@ -4,6 +4,7 @@
 
 	export let paragraph: ParagraphType;
 	export let searchQuery: string;
+	export let expanded: boolean;
 	// let original = false;
 	// const toggleOriginal = () => {
 	// 	original = !original;
@@ -11,7 +12,7 @@
 </script>
 
 <div class="collapse collapse-plus hover:bg-accent border border-primary bg-base-300 my-2">
-	<input type="checkbox" />
+	<input type="checkbox" checked={expanded} />
 	<div class="collapse-title text-md flex flex-row justify-between items-center">
 		<div class="flex-3">
 			<p class="line-clamp-1 font-medium max-w-4xl">

@@ -4,6 +4,7 @@
 	import Paragraph from './Paragraph.svelte';
 	export let chapter: ChapterType;
 	export let searchQuery: string;
+	export let expanded: boolean;
 
 	let subChapters: any[] = [];
 	chapter.paragraphs.forEach((p) => {
@@ -18,7 +19,7 @@
 </script>
 
 <div class="collapse collapse-arrow border border-primary bg-base-200 my-4">
-	<input type="checkbox" />
+	<input type="checkbox" checked={expanded} />
 	<div class="collapse-title text-xl font-medium">
 		{@html renderSearchableText(chapter.chapterTitle, searchQuery)}
 	</div>
@@ -45,8 +46,12 @@
 			<div>
 				{#each subChapters as subChapter}
 					<h3 class="text-lg font-bold mt-5">{subChapter.subChapterTitle}</h3>
-					{#each subChapter.paragraphs as paragraph}
-						<Paragraph {paragraph} {searchQuery} />
+					{#each subChapter.paragraphs as paragraph, index}
+						<Paragraph
+							{paragraph}
+							{searchQuery}
+							expanded={searchQuery.length >= 2 && index === 0}
+						/>
 					{/each}
 				{/each}
 			</div>
