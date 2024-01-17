@@ -1,11 +1,13 @@
 <script lang="ts">
 	import type { ParagraphType } from '$lib/types/shared';
+	import { renderSearchableText } from '$lib/utils/helperFunctions';
 
 	export let paragraph: ParagraphType;
-	let original = false;
-	const toggleOriginal = () => {
-		original = !original;
-	};
+	export let searchQuery: string;
+	// let original = false;
+	// const toggleOriginal = () => {
+	// 	original = !original;
+	// };
 </script>
 
 <div class="collapse collapse-plus hover:bg-accent border border-primary bg-base-300 my-2">
@@ -13,7 +15,10 @@
 	<div class="collapse-title text-md flex flex-row justify-between items-center">
 		<div class="flex-3">
 			<p class="line-clamp-1 font-medium max-w-4xl">
-				{@html `${paragraph.paragraphId}. ${paragraph.content.replaceAll('\\n', '\n')}`}
+				{@html `${paragraph.paragraphId}. ${renderSearchableText(
+					paragraph.content,
+					searchQuery
+				).replaceAll('\\n', '\n')}`}
 			</p>
 		</div>
 		{#if paragraph.dataType}
@@ -25,7 +30,7 @@
 	<div class="collapse-content">
 		<div class="my-2">
 			<p>
-				{@html paragraph.content.replaceAll('\\n', '\n')}
+				{@html renderSearchableText(paragraph.content, searchQuery).replaceAll('\\n', '\n')}
 			</p>
 		</div>
 		<!-- <div class="p-2">

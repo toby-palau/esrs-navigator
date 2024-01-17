@@ -1,20 +1,24 @@
 <script lang="ts">
 	import { page } from '$app/stores';
+	import type { ChapterType } from '$lib/types/shared';
 	import DisclosureRequirement from './DisclosureRequirement.svelte';
 
-	export let data: { document: any; chaptersPromise: Promise<any[]> };
+	export let data: { document: any; chaptersPromise: Promise<ChapterType[]> };
 	export const { document, chaptersPromise } = data;
 	let searchQuery = '';
 
-	const filteredChapters = (chapters: any[], query: string) => {
-		if (!query) return chapters;
+	const filteredChapters = (chapters: ChapterType[], searchquery: string) => {
+		if (searchquery === '') return chapters;
 		return chapters
-			.map((c) => ({
-				...c,
-				paragraphs: c.paragraphs.filter((p: any) =>
-					p.content.toLowerCase().includes(query.toLowerCase())
-				)
-			}))
+			.map((c) => {
+				if (c.chapterTitle.toLowerCase().includes(searchquery.toLowerCase())) return c;
+				return {
+					...c,
+					paragraphs: c.paragraphs.filter((p) =>
+						p.content.toLowerCase().includes(searchquery.toLowerCase())
+					)
+				};
+			})
 			.filter((c) => c.paragraphs.length > 0);
 	};
 </script>
@@ -31,9 +35,6 @@
 	<!-- Description -->
 	<div class="my-10">
 		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-		<p>Nulla facilisi. Sed euismod, urna id aliquam aliquet, elit nunc ultrices nunc, vitae.</p>
-		<p>Curabitur euismod, nunc id aliquam aliquet, elit nunc ultrices nunc, vitae ultricies.</p>
-		<p>Etiam euismod, urna id aliquam aliquet, elit nunc ultrices nunc, vitae ultricies nisl.</p>
 	</div>
 
 	<!-- Search -->
@@ -73,9 +74,11 @@
 		{#await chaptersPromise}
 			<p>Loading...</p>
 		{:then chapters}
-			{#each filteredChapters(chapters, searchQuery) as chapter}
-				<DisclosureRequirement disclosureRequirement={chapter} />
-			{/each}
+			{#key searchQuery}
+				{#each filteredChapters(chapters, searchQuery) as chapter}
+					<DisclosureRequirement {chapter} {searchQuery} />
+				{/each}
+			{/key}
 		{:catch error}
 			<p>{error.message}</p>
 		{/await}

@@ -1,11 +1,12 @@
 <script lang="ts">
+	import type { ChapterType } from '$lib/types/shared';
+	import { renderSearchableText } from '$lib/utils/helperFunctions';
 	import Paragraph from './Paragraph.svelte';
-
-	export let disclosureRequirement: { chapterTitle: string; paragraphs: any[] };
-	console.log(disclosureRequirement.paragraphs.length);
+	export let chapter: ChapterType;
+	export let searchQuery: string;
 
 	let subChapters: any[] = [];
-	disclosureRequirement.paragraphs.forEach((p) => {
+	chapter.paragraphs.forEach((p) => {
 		let subChapter = subChapters.find((s) => s.subChapterTitle === p.subChapterTitle);
 		if (subChapter) {
 			subChapter.paragraphs.push(p);
@@ -19,27 +20,33 @@
 <div class="collapse collapse-arrow border border-primary bg-base-200 my-4">
 	<input type="checkbox" />
 	<div class="collapse-title text-xl font-medium">
-		{disclosureRequirement.chapterTitle}
+		{@html renderSearchableText(chapter.chapterTitle, searchQuery)}
 	</div>
 	<div class="collapse-content">
 		<div>
 			<div class="my-2">
 				<p>
-					<b>{'Implementation steps: '}</b
-					>{'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.'}
+					<b>{'Summary: '}</b>{@html renderSearchableText(
+						"The European Sustainability Reporting Standards (ESRS) help companies report on important sustainability issues. They focus on environmental, social, and governance topics. Companies don't have to report on issues they find unimportant. The aim is to make it clear how companies affect people and the environment. ESRS also guides how to prepare these reports.",
+						searchQuery
+					)}
 				</p>
 			</div>
 			<div class="my-2">
 				<p>
-					<b>{'Example: '}</b
-					>{'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.'}
+					<b>{'Implementation steps: '}</b>{'...'}
+				</p>
+			</div>
+			<div class="my-2">
+				<p>
+					<b>{'Example: '}</b>{'...'}
 				</p>
 			</div>
 			<div>
 				{#each subChapters as subChapter}
 					<h3 class="text-lg font-bold mt-5">{subChapter.subChapterTitle}</h3>
 					{#each subChapter.paragraphs as paragraph}
-						<Paragraph {paragraph} />
+						<Paragraph {paragraph} {searchQuery} />
 					{/each}
 				{/each}
 			</div>

@@ -33,3 +33,11 @@ export type ParagraphType = {
 	summary?: string;
 	dataType?: string;
 };
+
+export type ChapterType = {
+	chapterTitle: string;
+	paragraphs: ParagraphType[];
+	summary: string;
+	implementationSteps?: string;
+	example?: string;
+};
