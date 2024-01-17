@@ -45,7 +45,7 @@
 			</div>
 			<div>
 				{#each subChapters as subChapter}
-					<h3 class="text-lg font-bold mt-5">{subChapter.subChapterTitle}</h3>
+					<h3 class="text-lg mt-5">{subChapter.subChapterTitle}</h3>
 					{#each subChapter.paragraphs as paragraph, index}
 						<Paragraph
 							{paragraph}
