@@ -1,10 +1,7 @@
 <script lang="ts">
-	export let paragraph: {
-		paragraphId: string;
-		content: string;
-		summary: string;
-		dataType: string;
-	};
+	import type { ParagraphType } from '$lib/types/shared';
+
+	export let paragraph: ParagraphType;
 	let original = false;
 	const toggleOriginal = () => {
 		original = !original;
@@ -15,8 +12,8 @@
 	<input type="checkbox" />
 	<div class="collapse-title text-md flex flex-row justify-between items-center">
 		<div class="flex-3">
-			<p class="line-clamp-1 font-medium">
-				{`${paragraph.paragraphId}. ${paragraph.summary}`}
+			<p class="line-clamp-1 font-medium max-w-4xl">
+				{@html `${paragraph.paragraphId}. ${paragraph.content.replaceAll('\\n', '\n')}`}
 			</p>
 		</div>
 		{#if paragraph.dataType}
@@ -28,18 +25,18 @@
 	<div class="collapse-content">
 		<div class="my-2">
 			<p>
-				<b>{'Summary: '}</b>{paragraph.summary}
+				{@html paragraph.content.replaceAll('\\n', '\n')}
 			</p>
 		</div>
-		<div class="p-2">
+		<!-- <div class="p-2">
 			<div class={`${original ? 'max-h-none' : 'max-h-0'} transition-max-height overflow-hidden`}>
 				<p class="text-xs italic mb-2 whitespace-pre-line">
-					<b>{'Original text: '}</b>{@html paragraph.content.replaceAll('\\n', '\n')}
+					<b>{'Original text: '}</b>
 				</p>
 			</div>
 			<button class="btn btn-xs btn-outline" on:click={toggleOriginal}>
 				{`${original ? 'Hide' : 'Show'} original`}
 			</button>
-		</div>
+		</div> -->
 	</div>
 </div>

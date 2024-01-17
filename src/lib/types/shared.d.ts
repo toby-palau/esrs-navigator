@@ -24,3 +24,12 @@ export const isSlugType = (arg: any): arg is SlugType =>
 		arg === 'esrs-e2' ||
 		arg === 'esrs-e3' ||
 		arg === 'esrs-e4');
+
+export type ParagraphType = {
+	paragraphId: string;
+	chapterTitle: string;
+	subChapterTitle: string;
+	content: string;
+	summary?: string;
+	dataType?: string;
+};

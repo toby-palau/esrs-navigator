@@ -2,6 +2,7 @@
 	import Paragraph from './Paragraph.svelte';
 
 	export let disclosureRequirement: { chapterTitle: string; paragraphs: any[] };
+	console.log(disclosureRequirement.paragraphs.length);
 
 	let subChapters: any[] = [];
 	disclosureRequirement.paragraphs.forEach((p) => {
@@ -17,14 +18,14 @@
 
 <div class="collapse collapse-arrow border border-primary bg-base-200 my-4">
 	<input type="checkbox" />
-	<div class="collapse-title line-clamp-1 text-xl font-medium">
+	<div class="collapse-title text-xl font-medium">
 		{disclosureRequirement.chapterTitle}
 	</div>
 	<div class="collapse-content">
 		<div>
 			<div class="my-2">
 				<p>
-					<b>{'Summary: '}</b
+					<b>{'Implementation steps: '}</b
 					>{'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.'}
 				</p>
 			</div>
