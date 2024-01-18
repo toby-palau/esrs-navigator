@@ -7,9 +7,7 @@ import type { ChapterSummaryType, ChapterType } from '$lib/types/shared.js';
 
 export async function load({ params: { slug } }) {
 	const document = documents.find((d) => d.slug === slug);
-	if (!document) {
-		return error(404, 'Document not found');
-	}
+	if (!document) return error(404, 'Document not found');
 
 	let chapters: ChapterType[] = [];
 

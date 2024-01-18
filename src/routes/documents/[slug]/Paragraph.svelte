@@ -11,11 +11,13 @@
 	// };
 </script>
 
-<div class="collapse collapse-plus border border-primary bg-base-200 hover:bg-base-300 my-2">
+<div
+	class="collapse collapse-plus border border-primary bg-base-200 hover:bg-base-300 my-2 text-sm"
+>
 	<input type="checkbox" checked={expanded} />
 	<div class="collapse-title text-md flex flex-row justify-between items-center">
 		<div class="flex-3">
-			<p class="line-clamp-1 font-medium max-w-4xl">
+			<p class="line-clamp-1 font-medium max-w-4xl whitespace-pre-line">
 				{@html `${paragraph.paragraphId}. ${renderSearchableText(
 					paragraph.content,
 					searchQuery
@@ -30,7 +32,7 @@
 	</div>
 	<div class="collapse-content">
 		<div class="my-2">
-			<p>
+			<p class="whitespace-pre-line">
 				{@html renderSearchableText(paragraph.content, searchQuery).replaceAll('\\n', '\n')}
 			</p>
 		</div>

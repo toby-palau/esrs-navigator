@@ -32,7 +32,8 @@
 		"imageUrl": "https://www.esrs.eu/wp-content/uploads/2019/03/ESRS-Logo-2019-300x300.png",
 		"category": "Environment",
 		"slug": "esrs-e2",
-		"fileName": "ESRS_E2.csv"
+		"fileName": "ESRS_E2.csv",
+		"summariesFileName": "ESRS_E2_summaries.csv"
 	},
 	{
 		"title": "ESRS E3",
@@ -40,7 +41,8 @@
 		"imageUrl": "https://www.esrs.eu/wp-content/uploads/2019/03/ESRS-Logo-2019-300x300.png",
 		"category": "Environment",
 		"slug": "esrs-e3",
-		"fileName": "ESRS_E3.csv"
+		"fileName": "ESRS_E3.csv",
+		"summariesFileName": "ESRS_E3_summaries.csv"
 	},
 	{
 		"title": "ESRS E4",
@@ -48,7 +50,8 @@
 		"imageUrl": "https://www.esrs.eu/wp-content/uploads/2019/03/ESRS-Logo-2019-300x300.png",
 		"category": "Environment",
 		"slug": "esrs-e4",
-		"fileName": "ESRS_E4.csv"
+		"fileName": "ESRS_E4.csv",
+		"summariesFileName": "ESRS_E4_summaries.csv"
 	},
 	{
 		"title": "ESRS E5",
@@ -56,7 +59,8 @@
 		"imageUrl": "https://www.esrs.eu/wp-content/uploads/2019/03/ESRS-Logo-2019-300x300.png",
 		"category": "Environment",
 		"slug": "esrs-e5",
-		"fileName": "ESRS_E5.csv"
+		"fileName": "ESRS_E5.csv",
+		"summariesFileName": "ESRS_E5_summaries.csv"
 	},
 	{
 		"title": "ESRS S1",
@@ -64,7 +68,8 @@
 		"imageUrl": "https://www.esrs.eu/wp-content/uploads/2019/03/ESRS-Logo-2019-300x300.png",
 		"category": "Social",
 		"slug": "esrs-s1",
-		"fileName": "ESRS_S1.csv"
+		"fileName": "ESRS_S1.csv",
+		"summariesFileName": "ESRS_S1_summaries.csv"
 	},
 	{
 		"title": "ESRS S2",
@@ -72,7 +77,8 @@
 		"imageUrl": "https://www.esrs.eu/wp-content/uploads/2019/03/ESRS-Logo-2019-300x300.png",
 		"category": "Social",
 		"slug": "esrs-s2",
-		"fileName": "ESRS_S2.csv"
+		"fileName": "ESRS_S2.csv",
+		"summariesFileName": "ESRS_S2_summaries.csv"
 	},
 	{
 		"title": "ESRS S3",
@@ -80,7 +86,8 @@
 		"imageUrl": "https://www.esrs.eu/wp-content/uploads/2019/03/ESRS-Logo-2019-300x300.png",
 		"category": "Social",
 		"slug": "esrs-s3",
-		"fileName": "ESRS_S3.csv"
+		"fileName": "ESRS_S3.csv",
+		"summariesFileName": "ESRS_S3_summaries.csv"
 	},
 	{
 		"title": "ESRS S4",
@@ -88,7 +95,8 @@
 		"imageUrl": "https://www.esrs.eu/wp-content/uploads/2019/03/ESRS-Logo-2019-300x300.png",
 		"category": "Social",
 		"slug": "esrs-s4",
-		"fileName": "ESRS_S4.csv"
+		"fileName": "ESRS_S4.csv",
+		"summariesFileName": "ESRS_S4_summaries.csv"
 	},
 	{
 		"title": "ESRS G1",
@@ -96,6 +104,7 @@
 		"imageUrl": "https://www.esrs.eu/wp-content/uploads/2019/03/ESRS-Logo-2019-300x300.png",
 		"category": "Governance",
 		"slug": "esrs-g1",
-		"fileName": "ESRS_G1.csv"
+		"fileName": "ESRS_G1.csv",
+		"summariesFileName": "ESRS_G1_summaries.csv"
 	}
 ]

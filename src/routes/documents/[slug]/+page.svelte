@@ -1,7 +1,8 @@
 <script lang="ts">
 	import { page } from '$app/stores';
 	import type { ChapterType } from '$lib/types/shared';
-	import DisclosureRequirement from './DisclosureRequirement.svelte';
+	import Chapter from './Chapter.svelte';
+	import DisclosureRequirement from './Chapter.svelte';
 
 	export let data: { document: any; chaptersPromise: Promise<ChapterType[]> };
 	export const { document, chaptersPromise } = data;
@@ -76,11 +77,7 @@
 		{:then chapters}
 			{#key searchQuery}
 				{#each filteredChapters(chapters, searchQuery) as chapter, index}
-					<DisclosureRequirement
-						{chapter}
-						{searchQuery}
-						expanded={searchQuery.length >= 2 && index === 0}
-					/>
+					<Chapter {chapter} {searchQuery} expand={searchQuery.length >= 2 && index === 0} />
 				{/each}
 			{/key}
 		{:catch error}
