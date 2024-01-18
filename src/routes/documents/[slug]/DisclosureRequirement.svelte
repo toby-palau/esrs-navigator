@@ -25,22 +25,38 @@
 	</div>
 	<div class="collapse-content">
 		<div>
-			<div class="my-2">
-				<!-- <p>
-					<b>{'Summary: '}</b>{@html renderSearchableText(
-						"The European Sustainability Reporting Standards (ESRS) help companies report on important sustainability issues. They focus on environmental, social, and governance topics. Companies don't have to report on issues they find unimportant. The aim is to make it clear how companies affect people and the environment. ESRS also guides how to prepare these reports.",
-						searchQuery
-					)}
-				</p> -->
-				<p>
-					<b>{'Summary / Implementation steps: '}</b>{'...'}
-				</p>
-			</div>
-			<div class="my-2">
-				<p>
-					<b>{'Example: '}</b>{'...'}
-				</p>
-			</div>
+			{#if chapter.summary}
+				<div class="my-2">
+					<p class="whitespace-pre-line">
+						<b>{'Summary: \n'}</b>{@html renderSearchableText(
+							chapter.summary,
+							searchQuery
+						).replaceAll('\\n', '\n')}
+					</p>
+				</div>
+			{/if}
+			{#if chapter.implementationSteps}
+				<div class="my-2 whitespace-pre-line">
+					<p class="whitespace-pre-line">
+						<b>{'Implementation steps: \n'}</b>
+						{@html renderSearchableText(chapter.implementationSteps, searchQuery).replaceAll(
+							'\\n',
+							'\n'
+						)}
+					</p>
+				</div>
+			{/if}
+			{#if chapter.example}
+				<div class="my-2">
+					<p>
+						<b>{'Example: \n'}</b>{@html renderSearchableText(
+							chapter.example,
+							searchQuery
+						).replaceAll('\\n', '\n')}
+					</p>
+				</div>
+			{/if}
+
 			<div>
 				{#each subChapters as subChapter}
 					<h3 class="text-lg mt-5">{subChapter.subChapterTitle}</h3>

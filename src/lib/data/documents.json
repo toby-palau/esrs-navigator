@@ -5,7 +5,8 @@
 		"imageUrl": "https://www.esrs.eu/wp-content/uploads/2019/03/ESRS-Logo-2019-300x300.png",
 		"category": "General",
 		"slug": "esrs-1",
-		"fileName": "ESRS_1.csv"
+		"fileName": "ESRS_1.csv",
+		"summariesFileName": "ESRS_1_summaries.csv"
 	},
 	{
 		"title": "ESRS 2",
@@ -13,7 +14,8 @@
 		"imageUrl": "https://www.esrs.eu/wp-content/uploads/2019/03/ESRS-Logo-2019-300x300.png",
 		"category": "General",
 		"slug": "esrs-2",
-		"fileName": "ESRS_2.csv"
+		"fileName": "ESRS_2.csv",
+		"summariesFileName": "ESRS_2_summaries.csv"
 	},
 	{
 		"title": "ESRS E1",
@@ -21,7 +23,8 @@
 		"imageUrl": "https://www.esrs.eu/wp-content/uploads/2019/03/ESRS-Logo-2019-300x300.png",
 		"category": "Environment",
 		"slug": "esrs-e1",
-		"fileName": "ESRS_E1.csv"
+		"fileName": "ESRS_E1.csv",
+		"summariesFileName": "ESRS_E1_summaries.csv"
 	},
 	{
 		"title": "ESRS E2",

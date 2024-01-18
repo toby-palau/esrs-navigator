@@ -6,7 +6,7 @@ export const renderSearchableText = (text: string, searchQuery: string) => {
 		text =
 			text.slice(0, match.index + 32 * i) +
 			`<span class="bg-warning">${match[0]}</span>` +
-			text.slice(match.index + match[0].length + 32 * i, -1);
+			text.slice(match.index + match[0].length + 32 * i);
 	}
-	return text;
+	return text.replace('\\n', '\n');
 };

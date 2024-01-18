@@ -4,6 +4,8 @@ export interface EsrsDocumentType {
 	imageUrl: string;
 	category: string;
 	slug: SlugType;
+	fileName: string;
+	summariesFileName?: string;
 }
 
 export const isEsrsDocumentType = (arg: any): arg is EsrsDocumentType =>
@@ -39,5 +41,12 @@ export type ChapterType = {
 	paragraphs: ParagraphType[];
 	summary: string;
 	implementationSteps?: string;
+	example?: string;
+};
+
+export type ChapterSummaryType = {
+	chapterTitle: string;
+	summary?: string;
+	impolementationSteps?: string;
 	example?: string;
 };

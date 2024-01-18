@@ -3,6 +3,7 @@ import path from 'path';
 import csv from '@fast-csv/parse';
 import documents from '$lib/data/documents.json';
 import { error } from '@sveltejs/kit';
+import type { ChapterSummaryType, ChapterType } from '$lib/types/shared.js';
 
 export async function load({ params: { slug } }) {
 	const document = documents.find((d) => d.slug === slug);
@@ -10,8 +11,27 @@ export async function load({ params: { slug } }) {
 		return error(404, 'Document not found');
 	}
 
-	const chaptersPromise: Promise<any[]> = new Promise((resolve, reject) => {
-		let chapters: any[] = [];
+	let chapters: ChapterType[] = [];
+
+	if (document.summariesFileName && fs.existsSync(`./src/lib/data/${document.summariesFileName}`)) {
+		await new Promise((resolve, reject) => {
+			fs.createReadStream(path.resolve(`./src/lib/data/${document.summariesFileName}`))
+				.pipe(csv.parse({ headers: true }))
+				.on('error', (error) => reject(error))
+				.on('data', (row: any) => {
+					chapters.push({
+						chapterTitle: row.chapterTitle,
+						paragraphs: [],
+						summary: row.summary,
+						implementationSteps: row.implementationSteps,
+						example: row.example
+					});
+				})
+				.on('end', () => resolve(chapters));
+		});
+	}
+
+	const chaptersPromise: Promise<ChapterType[]> = new Promise((resolve, reject) => {
 		fs.createReadStream(path.resolve(`./src/lib/data/${document.fileName}`))
 			.pipe(csv.parse({ headers: true }))
 			.on('error', (error) => reject(error))
@@ -19,9 +39,15 @@ export async function load({ params: { slug } }) {
 				let chapter = chapters.find((c) => c.chapterTitle === row.chapterTitle);
 				if (chapter) {
 					chapter.paragraphs.push(row);
-					chapters = chapters.map((c) => (c.chapterTitle === chapter.chapterTitle ? chapter : c));
+					chapters = chapters.map((c) => (c.chapterTitle === chapter?.chapterTitle ? chapter : c));
 				} else {
-					chapter = { chapterTitle: row.chapterTitle, paragraphs: [row] };
+					chapter = {
+						chapterTitle: row.chapterTitle,
+						paragraphs: [row],
+						summary: '',
+						implementationSteps: '',
+						example: ''
+					};
 					chapters.push(chapter);
 				}
 			})
