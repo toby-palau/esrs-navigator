@@ -3,7 +3,7 @@
 	import { browser } from '$app/environment';
 
 	const hour = new Date().getHours();
-	const isNightTime = hour < 6 || hour > 15;
+	const isNightTime = hour < 6 || hour > 17;
 
 	const overwriteTheme = browser
 		? JSON.parse(localStorage.getItem('overwriteTheme') || 'null')
