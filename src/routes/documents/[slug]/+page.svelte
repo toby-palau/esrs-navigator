@@ -1,11 +1,17 @@
 <script lang="ts">
 	import { page } from '$app/stores';
-	import type { ChapterType } from '$lib/types/shared';
+	import type { ChapterType, EsrsDocumentType } from '$lib/types/shared';
 	import Chapter from './Chapter.svelte';
 	import DisclosureRequirement from './Chapter.svelte';
 
-	export let data: { document: any; chaptersPromise: Promise<ChapterType[]> };
-	export const { document, chaptersPromise } = data;
+	export let data: {
+		documents: EsrsDocumentType[];
+		slug: string;
+		chaptersPromise: Promise<ChapterType[]>;
+	};
+	export const { documents, slug, chaptersPromise } = data;
+	const document = documents.find((d) => d.slug === slug);
+	if (!document) throw new Error('Document not found');
 	let searchQuery = '';
 
 	const filteredChapters = (chapters: ChapterType[], searchquery: string) => {
@@ -39,7 +45,6 @@
 	</div>
 
 	<!-- Search -->
-
 	<form class="w-full my-10 flex flex-col items-center">
 		<div class="relative w-1/2">
 			<div class="absolute pointer-events-none h-full flex items-center justify-center p-5">

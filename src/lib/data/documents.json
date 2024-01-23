@@ -6,7 +6,8 @@
 		"category": "General",
 		"slug": "esrs-1",
 		"fileName": "ESRS_1.csv",
-		"summariesFileName": "ESRS_1_summaries.csv"
+		"summariesFileName": "ESRS_1_summaries.csv",
+		"downloadUrl": "https://www.efrag.org/Assets/Download?assetUrl=%2Fsites%2Fwebpublishing%2FSiteAssets%2FESRS%25201%2520Delegated-act-2023-5303-annex-1_en.pdf"
 	},
 	{
 		"title": "ESRS 2",
@@ -15,7 +16,8 @@
 		"category": "General",
 		"slug": "esrs-2",
 		"fileName": "ESRS_2.csv",
-		"summariesFileName": "ESRS_2_summaries.csv"
+		"summariesFileName": "ESRS_2_summaries.csv",
+		"downloadUrl": "https://www.efrag.org/Assets/Download?assetUrl=%2Fsites%2Fwebpublishing%2FSiteAssets%2FESRS%25202%2520Delegated-act-2023-5303-annex-1_en.pdf"
 	},
 	{
 		"title": "ESRS E1",
@@ -24,7 +26,8 @@
 		"category": "Environment",
 		"slug": "esrs-e1",
 		"fileName": "ESRS_E1.csv",
-		"summariesFileName": "ESRS_E1_summaries.csv"
+		"summariesFileName": "ESRS_E1_summaries.csv",
+		"downloadUrl": "https://www.efrag.org/Assets/Download?assetUrl=%2Fsites%2Fwebpublishing%2FSiteAssets%2FESRS%2520E1%2520Delegated-act-2023-5303-annex-1_en.pdf"
 	},
 	{
 		"title": "ESRS E2",
@@ -33,7 +36,8 @@
 		"category": "Environment",
 		"slug": "esrs-e2",
 		"fileName": "ESRS_E2.csv",
-		"summariesFileName": "ESRS_E2_summaries.csv"
+		"summariesFileName": "ESRS_E2_summaries.csv",
+		"downloadUrl": "https://www.efrag.org/Assets/Download?assetUrl=%2Fsites%2Fwebpublishing%2FSiteAssets%2FESRS%2520E2%2520Delegated-act-2023-5303-annex-1_en.pdf"
 	},
 	{
 		"title": "ESRS E3",
@@ -42,7 +46,8 @@
 		"category": "Environment",
 		"slug": "esrs-e3",
 		"fileName": "ESRS_E3.csv",
-		"summariesFileName": "ESRS_E3_summaries.csv"
+		"summariesFileName": "ESRS_E3_summaries.csv",
+		"downloadUrl": "https://www.efrag.org/Assets/Download?assetUrl=%2Fsites%2Fwebpublishing%2FSiteAssets%2FESRS%2520E3%2520Delegated-act-2023-5303-annex-1_en.pdf"
 	},
 	{
 		"title": "ESRS E4",
@@ -51,7 +56,8 @@
 		"category": "Environment",
 		"slug": "esrs-e4",
 		"fileName": "ESRS_E4.csv",
-		"summariesFileName": "ESRS_E4_summaries.csv"
+		"summariesFileName": "ESRS_E4_summaries.csv",
+		"downloadUrl": "https://www.efrag.org/Assets/Download?assetUrl=%2Fsites%2Fwebpublishing%2FSiteAssets%2FESRS%2520E4%2520Delegated-act-2023-5303-annex-1_en.pdf"
 	},
 	{
 		"title": "ESRS E5",
@@ -60,7 +66,8 @@
 		"category": "Environment",
 		"slug": "esrs-e5",
 		"fileName": "ESRS_E5.csv",
-		"summariesFileName": "ESRS_E5_summaries.csv"
+		"summariesFileName": "ESRS_E5_summaries.csv",
+		"downloadUrl": "https://www.efrag.org/Assets/Download?assetUrl=%2Fsites%2Fwebpublishing%2FSiteAssets%2FESRS%2520E5%2520Delegated-act-2023-5303-annex-1_en.pdf"
 	},
 	{
 		"title": "ESRS S1",
@@ -69,7 +76,8 @@
 		"category": "Social",
 		"slug": "esrs-s1",
 		"fileName": "ESRS_S1.csv",
-		"summariesFileName": "ESRS_S1_summaries.csv"
+		"summariesFileName": "ESRS_S1_summaries.csv",
+		"downloadUrl": "https://www.efrag.org/Assets/Download?assetUrl=%2Fsites%2Fwebpublishing%2FSiteAssets%2FESRS%2520S1%2520Delegated-act-2023-5303-annex-1_en.pdf"
 	},
 	{
 		"title": "ESRS S2",
@@ -78,7 +86,8 @@
 		"category": "Social",
 		"slug": "esrs-s2",
 		"fileName": "ESRS_S2.csv",
-		"summariesFileName": "ESRS_S2_summaries.csv"
+		"summariesFileName": "ESRS_S2_summaries.csv",
+		"downloadUrl": "https://www.efrag.org/Assets/Download?assetUrl=%2Fsites%2Fwebpublishing%2FSiteAssets%2FESRS%2520S2%2520to%2520S4%2520Delegated-act-2023-5303-annex-1_en.pdf"
 	},
 	{
 		"title": "ESRS S3",
@@ -87,7 +96,8 @@
 		"category": "Social",
 		"slug": "esrs-s3",
 		"fileName": "ESRS_S3.csv",
-		"summariesFileName": "ESRS_S3_summaries.csv"
+		"summariesFileName": "ESRS_S3_summaries.csv",
+		"downloadUrl": "https://www.efrag.org/Assets/Download?assetUrl=%2Fsites%2Fwebpublishing%2FSiteAssets%2FESRS%2520S2%2520to%2520S4%2520Delegated-act-2023-5303-annex-1_en.pdf"
 	},
 	{
 		"title": "ESRS S4",
@@ -96,7 +106,8 @@
 		"category": "Social",
 		"slug": "esrs-s4",
 		"fileName": "ESRS_S4.csv",
-		"summariesFileName": "ESRS_S4_summaries.csv"
+		"summariesFileName": "ESRS_S4_summaries.csv",
+		"downloadUrl": "https://www.efrag.org/Assets/Download?assetUrl=%2Fsites%2Fwebpublishing%2FSiteAssets%2FESRS%2520S2%2520to%2520S4%2520Delegated-act-2023-5303-annex-1_en.pdf"
 	},
 	{
 		"title": "ESRS G1",
@@ -105,6 +116,7 @@
 		"category": "Governance",
 		"slug": "esrs-g1",
 		"fileName": "ESRS_G1.csv",
-		"summariesFileName": "ESRS_G1_summaries.csv"
+		"summariesFileName": "ESRS_G1_summaries.csv",
+		"downloadUrl": "https://www.efrag.org/Assets/Download?assetUrl=%2Fsites%2Fwebpublishing%2FSiteAssets%2FESRS%2520G1%2520Delegated-act-2023-5303-annex-1_en.pdf"
 	}
 ]

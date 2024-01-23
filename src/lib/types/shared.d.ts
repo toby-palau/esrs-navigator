@@ -6,6 +6,7 @@ export interface EsrsDocumentType {
 	slug: SlugType;
 	fileName: string;
 	summariesFileName?: string;
+	downloadUrl: string;
 }
 
 export const isEsrsDocumentType = (arg: any): arg is EsrsDocumentType =>

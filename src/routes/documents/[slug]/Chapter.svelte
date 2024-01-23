@@ -34,14 +34,14 @@
 				</div>
 			{/if}
 			{#if chapter.implementationSteps}
-				<div class="my-2 whitespace-pre-line p-5">
-					<b>{'Implementation steps: \n'}</b>
-					<ul class="timeline timeline-vertical -left-3/4 w-[150%]">
+				<div class="my-2 p-5">
+					<p class="font-bold">{'Implementation steps:'}</p>
+					<ul class="steps steps-vertical">
 						{#each chapter.implementationSteps.split('|').entries() as [i, step]}
-							<li>
-								{#if i > 0}<hr />{/if}
-								<div class="timeline-start">{i + 1}</div>
-								<div class="timeline-middle">
+							<li class="step text-left">
+								<!-- {#if i > 0}<hr />{/if} -->
+								<!-- <div class="timeline-start">{i + 1}</div> -->
+								<!-- <div class="timeline-middle">
 									<svg
 										xmlns="http://www.w3.org/2000/svg"
 										viewBox="0 0 20 20"
@@ -53,11 +53,15 @@
 											clip-rule="evenodd"
 										/></svg
 									>
-								</div>
-								<div class="timeline-end timeline-box whitespace-pre-line">
+								</div> -->
+								<!-- <div class="timeline-end timeline-box whitespace-pre-line"> -->
+								<p
+									class="text-left whitespace-pre-line rounded-box bg-base-100 py-2 px-3 border border-base-300 drop-shadow-sm"
+								>
 									{@html renderSearchableText(step, searchQuery)}
-								</div>
-								{#if i < chapter.implementationSteps.split('|').length - 1}<hr />{/if}
+								</p>
+								<!-- </div> -->
+								<!-- {#if i < chapter.implementationSteps.split('|').length - 1}<hr />{/if} -->
 							</li>
 						{/each}
 					</ul>
@@ -81,7 +85,10 @@
 					<h3 class="font-bold mt-5">{subChapter.subChapterTitle}</h3>
 					{#each subChapter.paragraphs as paragraph}
 						<li class="my-5 whitespace-pre-line list-none">
-							{`${paragraph.paragraphId}. ${renderSearchableText(paragraph.content, searchQuery)}`}
+							{@html `${paragraph.paragraphId}. ${renderSearchableText(
+								paragraph.content,
+								searchQuery
+							)}`}
 						</li>
 					{/each}
 				{/each}
