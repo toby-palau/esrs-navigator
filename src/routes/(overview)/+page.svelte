@@ -6,7 +6,6 @@
 	const categories = ['General', 'Environment', 'Social', 'Governance'];
 </script>
 
-<h1 class="text-4xl font-medium">ESRS Navigator</h1>
 <ul class="my-12">
 	{#each categories as category}
 		<li class="my-4">
