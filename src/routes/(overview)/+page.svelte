@@ -6,11 +6,11 @@
 	const categories = ['General', 'Environment', 'Social', 'Governance'];
 </script>
 
-<h1 class="text-4xl">ESRS Navigator</h1>
+<h1 class="text-4xl font-medium">ESRS Navigator</h1>
 <ul class="my-12">
 	{#each categories as category}
-		<li>
-			<h2 class="text-3xl">{category}</h2>
+		<li class="my-4">
+			<h2 class="my-2 text-3xl font-medium">{category}</h2>
 			<DocumentList documents={data.documents.filter((d) => d.category === category)} />
 		</li>
 	{/each}
