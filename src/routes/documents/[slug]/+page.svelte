@@ -2,7 +2,6 @@
 	import { page } from '$app/stores';
 	import type { ChapterType, EsrsDocumentType } from '$lib/types/shared';
 	import Chapter from './Chapter.svelte';
-	import DisclosureRequirement from './Chapter.svelte';
 
 	export let data: {
 		documents: EsrsDocumentType[];
@@ -19,6 +18,8 @@
 		return chapters
 			.map((c) => {
 				if (c.chapterTitle.toLowerCase().includes(searchquery.toLowerCase())) return c;
+				if (c.summary?.toLowerCase().includes(searchquery.toLowerCase())) return c;
+				if (c.implementationSteps?.toLowerCase().includes(searchquery.toLowerCase())) return c;
 				return {
 					...c,
 					paragraphs: c.paragraphs.filter((p) =>
@@ -46,7 +47,7 @@
 
 	<!-- Search -->
 	<form class="w-full my-10 flex flex-col items-center">
-		<div class="relative w-1/2">
+		<div class="relative w-3/4">
 			<div class="absolute pointer-events-none h-full flex items-center justify-center p-5">
 				<svg
 					class="w-4 h-4 text-primary"

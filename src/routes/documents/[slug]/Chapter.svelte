@@ -5,7 +5,7 @@
 	export let searchQuery: string;
 	export let expand: boolean;
 
-	let expandRequirements = false;
+	let expandRequirements = expand;
 
 	let subChapters: any[] = [];
 	chapter.paragraphs.forEach((p) => {
