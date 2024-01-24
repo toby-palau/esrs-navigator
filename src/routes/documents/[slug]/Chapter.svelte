@@ -4,8 +4,7 @@
 	export let chapter: ChapterType;
 	export let searchQuery: string;
 	export let expand: boolean;
-
-	let expandRequirements = expand;
+	let expandDetails = expand;
 
 	let subChapters: any[] = [];
 	chapter.paragraphs.forEach((p) => {
@@ -25,7 +24,7 @@
 		{@html renderSearchableText(chapter.chapterTitle, searchQuery)}
 	</div>
 	<div class="collapse-content">
-		<div class="m">
+		<div>
 			{#if chapter.summary}
 				<div class="my-2">
 					<p class="whitespace-pre-line">
@@ -34,53 +33,28 @@
 				</div>
 			{/if}
 			{#if chapter.implementationSteps}
-				<div class="my-2 p-5">
+				<div class="my-2">
 					<p class="font-bold">{'Implementation steps:'}</p>
 					<ul class="steps steps-vertical">
 						{#each chapter.implementationSteps.split('|').entries() as [i, step]}
 							<li class="step text-left">
-								<!-- {#if i > 0}<hr />{/if} -->
-								<!-- <div class="timeline-start">{i + 1}</div> -->
-								<!-- <div class="timeline-middle">
-									<svg
-										xmlns="http://www.w3.org/2000/svg"
-										viewBox="0 0 20 20"
-										fill="currentColor"
-										class="w-5 h-5"
-										><path
-											fill-rule="evenodd"
-											d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
-											clip-rule="evenodd"
-										/></svg
-									>
-								</div> -->
-								<!-- <div class="timeline-end timeline-box whitespace-pre-line"> -->
 								<p
 									class="text-left whitespace-pre-line rounded-box bg-base-100 py-2 px-3 border border-base-300 drop-shadow-sm"
 								>
 									{@html renderSearchableText(step, searchQuery)}
 								</p>
-								<!-- </div> -->
-								<!-- {#if i < chapter.implementationSteps.split('|').length - 1}<hr />{/if} -->
 							</li>
 						{/each}
 					</ul>
 				</div>
 			{/if}
-			{#if chapter.example}
-				<div class="my-2">
-					<p>
-						<b>{'Example: \n'}</b>{@html renderSearchableText(chapter.example, searchQuery)}
-					</p>
-				</div>
-			{/if}
 		</div>
-		<div class="text-xs flex flex-col items-center m-5">
-			<div
-				class={`${
-					expandRequirements ? 'max-h-auto' : 'max-h-0'
-				} w-full overflow-hidden transition tranistion-max-height duration-500 ease-in-out`}
-			>
+		<div class="collapse collapse-arrow border border-primary bg-base-200 mt-10">
+			<input type="checkbox" bind:checked={expandDetails} />
+			<div class="collapse-title text-sm text-center justify-center">
+				{expandDetails ? 'Hide original content' : 'Show original content'}
+			</div>
+			<div class="collapse-content text-sm">
 				{#each subChapters as subChapter}
 					<h3 class="font-bold mt-5">{subChapter.subChapterTitle}</h3>
 					{#each subChapter.paragraphs as paragraph}
@@ -93,8 +67,9 @@
 					{/each}
 				{/each}
 			</div>
+		</div>
 
-			<!-- {#each subChapters as subChapter}
+		<!-- {#each subChapters as subChapter}
 					<h3 class="text-lg mt-5">{subChapter.subChapterTitle}</h3>
 					{#each subChapter.paragraphs as paragraph, index}
 						<Paragraph
@@ -104,12 +79,5 @@
 						/>
 					{/each}
 				{/each} -->
-			<button
-				class="btn btn-xs btn-outline"
-				on:click={() => (expandRequirements = !expandRequirements)}
-			>
-				{expandRequirements ? 'Hide requirements' : 'Show requirements'}
-			</button>
-		</div>
 	</div>
 </div>
