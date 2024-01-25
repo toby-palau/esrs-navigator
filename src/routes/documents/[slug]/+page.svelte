@@ -32,31 +32,29 @@
 
 <div class="container px-5">
 	<h1 class="text-4xl">{`${document.title} - ${document.description}`}</h1>
-	<div class="btn btn-outline btn-sm my-2">
+	<a href={document.downloadUrl} target="_blank" class="btn btn-outline btn-sm my-2">
 		<p class="font-normal">Download original PDF</p>
-		<a href={document.downloadUrl} target="_blank"
-			><svg
-				xmlns="http://www.w3.org/2000/svg"
-				class="h-5 w-5"
-				fill="none"
-				viewBox="0 0 24 24"
-				stroke="currentColor"
-			>
-				<path
-					stroke-linecap="round"
-					stroke-linejoin="round"
-					stroke-width="2"
-					d="M3 15C3 17.8284 3 19.2426 3.87868 20.1213C4.75736 21 6.17157 21 9 21H15C17.8284 21 19.2426 21 20.1213 20.1213C21 19.2426 21 17.8284 21 15"
-				/>
-				<path
-					stroke-linecap="round"
-					stroke-linejoin="round"
-					stroke-width="2"
-					d="M12 3V16M12 16L16 11.625M12 16L8 11.625"
-				/>
-			</svg></a
+		<svg
+			xmlns="http://www.w3.org/2000/svg"
+			class="h-5 w-5"
+			fill="none"
+			viewBox="0 0 24 24"
+			stroke="currentColor"
 		>
-	</div>
+			<path
+				stroke-linecap="round"
+				stroke-linejoin="round"
+				stroke-width="2"
+				d="M3 15C3 17.8284 3 19.2426 3.87868 20.1213C4.75736 21 6.17157 21 9 21H15C17.8284 21 19.2426 21 20.1213 20.1213C21 19.2426 21 17.8284 21 15"
+			/>
+			<path
+				stroke-linecap="round"
+				stroke-linejoin="round"
+				stroke-width="2"
+				d="M12 3V16M12 16L16 11.625M12 16L8 11.625"
+			/>
+		</svg>
+	</a>
 	<!-- <div class="text-sm breadcrumbs my-10">
 		<ul>
 			<li><a href="/">ESRS</a></li>
