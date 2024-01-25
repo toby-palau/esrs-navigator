@@ -30,7 +30,7 @@
 	<div class="drawer-side z-10">
 		<label for="navbar-menu" aria-label="close sidebar" class="drawer-overlay pointer-events-none"
 		></label>
-		<div class="pt-24 min-h-screen w-50 bg-base-200">
+		<div class="pt-24 min-h-screen w-72 bg-base-200">
 			<label
 				for="navbar-menu"
 				aria-label="close sidebar"
