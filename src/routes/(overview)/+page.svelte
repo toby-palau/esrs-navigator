@@ -6,8 +6,8 @@
 	const categories = ['General', 'Environment', 'Social', 'Governance'];
 </script>
 
-<div class="relative container mx-auto mt-32 pb-12 px-3">
-	<div>
+<div class="relative container mx-auto py-16 px-3">
+	<div class="my-8">
 		<p class="my-3">
 			Welcome to the ESRS Navigator, your go-to guide for easily understanding ESRS standards and
 			improving your navigation experience.
