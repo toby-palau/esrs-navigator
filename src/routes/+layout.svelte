@@ -31,7 +31,7 @@
 </script>
 
 <div>
-	<div class="fixed navbar bg-base-100 shadow-lg z-20 flex-row justify-between items-center top-0">
+	<div class="fixed navbar bg-base-100 shadow-md z-20 flex-row justify-between items-center top-0">
 		<a class="btn btn-ghost text-xl" href="/">ESRS Navigator</a>
 		<label class="p-2 flex cursor-pointer gap-2 justify-end">
 			<svg

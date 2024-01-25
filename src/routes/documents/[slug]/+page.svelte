@@ -62,11 +62,6 @@
 		</ul>
 	</div> -->
 
-	<!-- Description -->
-	<div class="my-10">
-		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-	</div>
-
 	<!-- Search -->
 	<form class="w-full my-10 flex flex-col items-center">
 		<div class="relative w-3/4">
