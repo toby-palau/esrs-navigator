@@ -10,7 +10,7 @@
 	<div class="drawer-content container mx-auto pt-24 px-3 z-0">
 		<label
 			for="navbar-menu"
-			class="drawer-button lg:hidden btn btn-circle btn-xs fixed top-20 left-1 flex items-center justify-center"
+			class="drawer-button lg:hidden btn btn-circle btn-xs bg-base-100 fixed top-20 left-1 flex items-center justify-center"
 		>
 			<svg
 				class="fill-current w-5 h-5"
@@ -30,11 +30,11 @@
 	<div class="drawer-side z-10">
 		<label for="navbar-menu" aria-label="close sidebar" class="drawer-overlay pointer-events-none"
 		></label>
-		<div class="pt-24 min-h-screen w-72 bg-base-200">
+		<div class="flex flex-col pt-16 min-h-screen w-72 bg-base-200">
 			<label
 				for="navbar-menu"
 				aria-label="close sidebar"
-				class="absolute lg:hidden btn btn-circle btn-xs top-20 right-2 flex items-center justify-center"
+				class="relative lg:hidden btn btn-circle btn-xs bg-base-100 self-end flex items-center justify-center mt-4 mr-2"
 			>
 				<svg
 					class="fill-current w-5 h-5"
@@ -71,6 +71,14 @@
 					</li>
 				{/each}
 			</ul>
+			<div class="card px-6 py-3">
+				<p class="text-sm text-primary italic text-center">We would love to hear what you think!</p>
+				<a
+					href={`https://l7t4rmg54vo.typeform.com/to/iWI3fFl2#page=${slug}`}
+					target="_blank"
+					class="btn btn-outline btn-sm btn-primary mt-2">Leave feedback</a
+				>
+			</div>
 		</div>
 	</div>
 </div>
