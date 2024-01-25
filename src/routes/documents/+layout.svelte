@@ -10,7 +10,7 @@
 	<div class="drawer-content container mx-auto pt-24 px-3 z-0">
 		<label
 			for="navbar-menu"
-			class="drawer-button lg:hidden btn btn-circle btn-xs bg-base-100 fixed top-20 left-1 flex items-center justify-center"
+			class="fixed drawer-button lg:hidden btn btn-circle btn-xs bg-base-100 top-20 left-1"
 		>
 			<svg
 				class="fill-current w-5 h-5"
@@ -34,7 +34,7 @@
 			<label
 				for="navbar-menu"
 				aria-label="close sidebar"
-				class="relative lg:hidden btn btn-circle btn-xs bg-base-100 self-end flex items-center justify-center mt-4 mr-2"
+				class="lg:hidden btn btn-circle btn-xs bg-base-100 self-end mt-4 mr-2"
 			>
 				<svg
 					class="fill-current w-5 h-5"

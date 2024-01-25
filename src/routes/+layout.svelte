@@ -28,10 +28,27 @@
 			browser && localStorage.removeItem('overwriteTheme');
 		}
 	};
+
+	let content: HTMLElement;
+	let lastScrollPosition = 0;
+	let scrollDirection: 'up' | 'down' = 'up';
+
+	const handleScroll = () => {
+		if (content.scrollTop > lastScrollPosition) {
+			scrollDirection = 'down';
+		} else {
+			scrollDirection = 'up';
+		}
+		lastScrollPosition = content.scrollTop;
+	};
 </script>
 
-<div>
-	<div class="fixed navbar bg-base-100 shadow-md z-20 flex-row justify-between items-center top-0">
+<div class="h-full w-full overflow-y-scroll" bind:this={content} on:scroll={handleScroll}>
+	<div
+		class={`fixed navbar bg-base-100 shadow-md z-20 flex-row justify-between items-center top-0 transition duration-500 ${
+			scrollDirection === 'down' ? '-translate-y-full' : '-translate-y-0'
+		}`}
+	>
 		<a class="btn btn-ghost text-xl" href="/">ESRS Navigator</a>
 		<label class="p-2 flex cursor-pointer gap-2 justify-end">
 			<svg

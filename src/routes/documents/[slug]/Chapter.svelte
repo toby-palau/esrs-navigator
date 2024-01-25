@@ -49,12 +49,14 @@
 				</div>
 			{/if}
 		</div>
-		<div class="collapse collapse-arrow border border-primary bg-base-200 mt-10">
+		<div
+			class="collapse collapse-arrow border border-primary bg-base-200 mt-10 text-primary text-xs"
+		>
 			<input type="checkbox" bind:checked={expandDetails} />
-			<div class="collapse-title text-sm text-center justify-center">
+			<div class="collapse-title text-center italic">
 				{expandDetails ? 'Hide original content' : 'Show original content'}
 			</div>
-			<div class="collapse-content text-sm">
+			<div class="collapse-content">
 				{#each subChapters as subChapter}
 					<h3 class="font-bold mt-5">{subChapter.subChapterTitle}</h3>
 					{#each subChapter.paragraphs as paragraph}
