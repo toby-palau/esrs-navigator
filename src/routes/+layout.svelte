@@ -34,7 +34,9 @@
 	let scrollDirection: 'up' | 'down' = 'up';
 
 	const handleScroll = () => {
-		if (content.scrollTop > lastScrollPosition) {
+		if (content.scrollTop <= 0) {
+			scrollDirection = 'up';
+		} else if (content.scrollTop > lastScrollPosition) {
 			scrollDirection = 'down';
 		} else {
 			scrollDirection = 'up';

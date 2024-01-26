@@ -30,7 +30,7 @@
 	<div class="drawer-side z-10">
 		<label for="navbar-menu" aria-label="close sidebar" class="drawer-overlay pointer-events-none"
 		></label>
-		<div class="flex flex-col pt-16 min-h-screen w-72 bg-base-200">
+		<div class="flex flex-col min-h-screen w-72 pt-16 bg-base-200">
 			<label
 				for="navbar-menu"
 				aria-label="close sidebar"
@@ -55,13 +55,13 @@
 					<li>
 						<details open>
 							<summary>{category}</summary>
-							<ul>
+							<ul class="w-64">
 								{#each documents.filter((d) => d.category === category) as document}
-									<li>
+									<li class="overflow-clip">
 										<a
 											href="/documents/{document.slug}"
 											target="_self"
-											class={`${document.slug === slug ? 'active' : ''} line-clamp-1 py-1`}
+											class={`py-1 w-full line-clamp-1 ${document.slug === slug ? 'active' : ''}`}
 											>{`${document.title} - ${document.description}`}</a
 										>
 									</li>
