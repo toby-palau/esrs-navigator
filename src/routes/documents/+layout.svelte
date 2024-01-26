@@ -27,7 +27,7 @@
 		</label>
 		<slot />
 	</div>
-	<div class="drawer-side z-10">
+	<div class="drawer-side z-10 overscroll-none">
 		<label for="navbar-menu" aria-label="close sidebar" class="drawer-overlay pointer-events-none"
 		></label>
 		<div class="flex flex-col min-h-screen w-72 pt-16 bg-base-200">
