@@ -8,18 +8,18 @@
 
 <div class="relative container mx-auto pt-16 px-3">
 	<div class="my-8">
-		<p class="my-3">
-			Welcome to the ESRS Navigator, your go-to guide for easily understanding ESRS standards and
+		<h2 class="my-1 text-2xl font-bold">
+			Welcome to the ESRS Navigator! 
+		</h2>
+		<p class="my-1 italic text-sm">
+			🧭 Your go-to guide for easily understanding ESRS standards and
 			improving your navigation experience.
 		</p>
-		<p class="my-3">
-			This is just our starting point - think of it as a basic version, with lots of exciting
-			updates and new features planned for future releases.
+		<p class="mt-8">
+			🚀 This is our starting point - a basic version with exciting updates and new features planned for the future.
 		</p>
-		<p class="my-3">
-			We really appreciate your feedback, so please don't hesitate to use the feedback button to let
-			us know your ideas for enhancements or to point out any bugs. Your insights are key to making
-			this tool even better for everyone.
+		<p class="my-2">
+			💡 Your feedback is valuable to us. Please use the feedback button to share your enhancement ideas or report bugs. Your insights help us improve this tool for everyone.
 		</p>
 	</div>
 	<ul>
