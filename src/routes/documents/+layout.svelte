@@ -79,6 +79,14 @@
 					class="btn btn-outline btn-sm btn-primary mt-2">Leave feedback</a
 				>
 			</div>
+			<div class="card px-6 py-3">
+				<p class="text-sm text-primary italic text-center">Check out our other tools.</p>
+				<a
+					href={`https://periodic-pisces-5bc.notion.site/Palau-Portal-Collaborative-Tools-for-Sustainability-bc0695f3a5d74cf5b60be65fcbd46a25`}
+					target="_blank"
+					class="btn btn-outline btn-sm btn-primary mt-2">Go to overview</a
+				>
+			</div>
 		</div>
 	</div>
 </div>
