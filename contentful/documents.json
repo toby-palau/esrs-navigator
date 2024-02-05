@@ -1,0 +1,434 @@
+[
+	{
+		"fields": {
+			"title": {
+				"en-US": "ESRS 1"
+			},
+			"description": {
+				"en-US": {
+					"data": {},
+					"content": [
+						{
+							"data": {},
+							"content": [
+								{
+									"data": {},
+									"marks": [],
+									"value": "General requirements",
+									"nodeType": "text"
+								}
+							],
+							"nodeType": "paragraph"
+						}
+					],
+					"nodeType": "document"
+				}
+			},
+			"category": {
+				"en-US": "General"
+			},
+			"slug": {
+				"en-US": "esrs-1"
+			},
+			"downloadUrl": {
+				"en-US": "https://www.efrag.org/Assets/Download?assetUrl=%2Fsites%2Fwebpublishing%2FSiteAssets%2FESRS%25201%2520Delegated-act-2023-5303-annex-1_en.pdf"
+			}
+		}
+	},
+	{
+		"fields": {
+			"title": {
+				"en-US": "ESRS 2"
+			},
+			"description": {
+				"en-US": {
+					"data": {},
+					"content": [
+						{
+							"data": {},
+							"content": [
+								{
+									"data": {},
+									"marks": [],
+									"value": "General disclosures",
+									"nodeType": "text"
+								}
+							],
+							"nodeType": "paragraph"
+						}
+					],
+					"nodeType": "document"
+				}
+			},
+			"category": {
+				"en-US": "General"
+			},
+			"slug": {
+				"en-US": "esrs-2"
+			},
+			"downloadUrl": {
+				"en-US": "https://www.efrag.org/Assets/Download?assetUrl=%2Fsites%2Fwebpublishing%2FSiteAssets%2FESRS%25202%2520Delegated-act-2023-5303-annex-1_en.pdf"
+			}
+		}
+	},
+	{
+		"fields": {
+			"title": {
+				"en-US": "ESRS E1"
+			},
+			"description": {
+				"en-US": {
+					"data": {},
+					"content": [
+						{
+							"data": {},
+							"content": [
+								{
+									"data": {},
+									"marks": [],
+									"value": "Climate change",
+									"nodeType": "text"
+								}
+							],
+							"nodeType": "paragraph"
+						}
+					],
+					"nodeType": "document"
+				}
+			},
+			"category": {
+				"en-US": "Environment"
+			},
+			"slug": {
+				"en-US": "esrs-e1"
+			},
+			"downloadUrl": {
+				"en-US": "https://www.efrag.org/Assets/Download?assetUrl=%2Fsites%2Fwebpublishing%2FSiteAssets%2FESRS%2520E1%2520Delegated-act-2023-5303-annex-1_en.pdf"
+			}
+		}
+	},
+	{
+		"fields": {
+			"title": {
+				"en-US": "ESRS E2"
+			},
+			"description": {
+				"en-US": {
+					"data": {},
+					"content": [
+						{
+							"data": {},
+							"content": [
+								{
+									"data": {},
+									"marks": [],
+									"value": "Pollution",
+									"nodeType": "text"
+								}
+							],
+							"nodeType": "paragraph"
+						}
+					],
+					"nodeType": "document"
+				}
+			},
+			"category": {
+				"en-US": "Environment"
+			},
+			"slug": {
+				"en-US": "esrs-e2"
+			},
+			"downloadUrl": {
+				"en-US": "https://www.efrag.org/Assets/Download?assetUrl=%2Fsites%2Fwebpublishing%2FSiteAssets%2FESRS%2520E2%2520Delegated-act-2023-5303-annex-1_en.pdf"
+			}
+		}
+	},
+	{
+		"fields": {
+			"title": {
+				"en-US": "ESRS E3"
+			},
+			"description": {
+				"en-US": {
+					"data": {},
+					"content": [
+						{
+							"data": {},
+							"content": [
+								{
+									"data": {},
+									"marks": [],
+									"value": "Water and marine resources",
+									"nodeType": "text"
+								}
+							],
+							"nodeType": "paragraph"
+						}
+					],
+					"nodeType": "document"
+				}
+			},
+			"category": {
+				"en-US": "Environment"
+			},
+			"slug": {
+				"en-US": "esrs-e3"
+			},
+			"downloadUrl": {
+				"en-US": "https://www.efrag.org/Assets/Download?assetUrl=%2Fsites%2Fwebpublishing%2FSiteAssets%2FESRS%2520E3%2520Delegated-act-2023-5303-annex-1_en.pdf"
+			}
+		}
+	},
+	{
+		"fields": {
+			"title": {
+				"en-US": "ESRS E4"
+			},
+			"description": {
+				"en-US": {
+					"data": {},
+					"content": [
+						{
+							"data": {},
+							"content": [
+								{
+									"data": {},
+									"marks": [],
+									"value": "Biodiversity and ecosystems",
+									"nodeType": "text"
+								}
+							],
+							"nodeType": "paragraph"
+						}
+					],
+					"nodeType": "document"
+				}
+			},
+			"category": {
+				"en-US": "Environment"
+			},
+			"slug": {
+				"en-US": "esrs-e4"
+			},
+			"downloadUrl": {
+				"en-US": "https://www.efrag.org/Assets/Download?assetUrl=%2Fsites%2Fwebpublishing%2FSiteAssets%2FESRS%2520E4%2520Delegated-act-2023-5303-annex-1_en.pdf"
+			}
+		}
+	},
+	{
+		"fields": {
+			"title": {
+				"en-US": "ESRS E5"
+			},
+			"description": {
+				"en-US": {
+					"data": {},
+					"content": [
+						{
+							"data": {},
+							"content": [
+								{
+									"data": {},
+									"marks": [],
+									"value": "Resource use and circular economy",
+									"nodeType": "text"
+								}
+							],
+							"nodeType": "paragraph"
+						}
+					],
+					"nodeType": "document"
+				}
+			},
+			"category": {
+				"en-US": "Environment"
+			},
+			"slug": {
+				"en-US": "esrs-e5"
+			},
+			"downloadUrl": {
+				"en-US": "https://www.efrag.org/Assets/Download?assetUrl=%2Fsites%2Fwebpublishing%2FSiteAssets%2FESRS%2520E5%2520Delegated-act-2023-5303-annex-1_en.pdf"
+			}
+		}
+	},
+	{
+		"fields": {
+			"title": {
+				"en-US": "ESRS S1"
+			},
+			"description": {
+				"en-US": {
+					"data": {},
+					"content": [
+						{
+							"data": {},
+							"content": [
+								{
+									"data": {},
+									"marks": [],
+									"value": "Own workforce",
+									"nodeType": "text"
+								}
+							],
+							"nodeType": "paragraph"
+						}
+					],
+					"nodeType": "document"
+				}
+			},
+			"category": {
+				"en-US": "Social"
+			},
+			"slug": {
+				"en-US": "esrs-s1"
+			},
+			"downloadUrl": {
+				"en-US": "https://www.efrag.org/Assets/Download?assetUrl=%2Fsites%2Fwebpublishing%2FSiteAssets%2FESRS%2520S1%2520Delegated-act-2023-5303-annex-1_en.pdf"
+			}
+		}
+	},
+	{
+		"fields": {
+			"title": {
+				"en-US": "ESRS S2"
+			},
+			"description": {
+				"en-US": {
+					"data": {},
+					"content": [
+						{
+							"data": {},
+							"content": [
+								{
+									"data": {},
+									"marks": [],
+									"value": "Workers in the value chain",
+									"nodeType": "text"
+								}
+							],
+							"nodeType": "paragraph"
+						}
+					],
+					"nodeType": "document"
+				}
+			},
+			"category": {
+				"en-US": "Social"
+			},
+			"slug": {
+				"en-US": "esrs-s2"
+			},
+			"downloadUrl": {
+				"en-US": "https://www.efrag.org/Assets/Download?assetUrl=%2Fsites%2Fwebpublishing%2FSiteAssets%2FESRS%2520S2%2520to%2520S4%2520Delegated-act-2023-5303-annex-1_en.pdf"
+			}
+		}
+	},
+	{
+		"fields": {
+			"title": {
+				"en-US": "ESRS S3"
+			},
+			"description": {
+				"en-US": {
+					"data": {},
+					"content": [
+						{
+							"data": {},
+							"content": [
+								{
+									"data": {},
+									"marks": [],
+									"value": "Affected communities",
+									"nodeType": "text"
+								}
+							],
+							"nodeType": "paragraph"
+						}
+					],
+					"nodeType": "document"
+				}
+			},
+			"category": {
+				"en-US": "Social"
+			},
+			"slug": {
+				"en-US": "esrs-s3"
+			},
+			"downloadUrl": {
+				"en-US": "https://www.efrag.org/Assets/Download?assetUrl=%2Fsites%2Fwebpublishing%2FSiteAssets%2FESRS%2520S2%2520to%2520S4%2520Delegated-act-2023-5303-annex-1_en.pdf"
+			}
+		}
+	},
+	{
+		"fields": {
+			"title": {
+				"en-US": "ESRS S4"
+			},
+			"description": {
+				"en-US": {
+					"data": {},
+					"content": [
+						{
+							"data": {},
+							"content": [
+								{
+									"data": {},
+									"marks": [],
+									"value": "Consumers and end users",
+									"nodeType": "text"
+								}
+							],
+							"nodeType": "paragraph"
+						}
+					],
+					"nodeType": "document"
+				}
+			},
+			"category": {
+				"en-US": "Social"
+			},
+			"slug": {
+				"en-US": "esrs-s4"
+			},
+			"downloadUrl": {
+				"en-US": "https://www.efrag.org/Assets/Download?assetUrl=%2Fsites%2Fwebpublishing%2FSiteAssets%2FESRS%2520S2%2520to%2520S4%2520Delegated-act-2023-5303-annex-1_en.pdf"
+			}
+		}
+	},
+	{
+		"fields": {
+			"title": {
+				"en-US": "ESRS G1"
+			},
+			"description": {
+				"en-US": {
+					"data": {},
+					"content": [
+						{
+							"data": {},
+							"content": [
+								{
+									"data": {},
+									"marks": [],
+									"value": "Business conduct",
+									"nodeType": "text"
+								}
+							],
+							"nodeType": "paragraph"
+						}
+					],
+					"nodeType": "document"
+				}
+			},
+			"category": {
+				"en-US": "Governance"
+			},
+			"slug": {
+				"en-US": "esrs-g1"
+			},
+			"downloadUrl": {
+				"en-US": "https://www.efrag.org/Assets/Download?assetUrl=%2Fsites%2Fwebpublishing%2FSiteAssets%2FESRS%2520G1%2520Delegated-act-2023-5303-annex-1_en.pdf"
+			}
+		}
+	}
+]

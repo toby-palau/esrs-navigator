@@ -1,0 +1,587 @@
+[
+	{
+		"id": "4xmMUJDKsxvV8GUgxX1cNI",
+		"chapterTitle": "Preparation and presentation of sustainability information",
+		"esrsDocument": "ESRS 1"
+	},
+	{
+		"id": "4UMtqCiR4U1yDqa72v0eDH",
+		"chapterTitle": "Categories of ESRS Standards, reporting areas and drafting conventions",
+		"esrsDocument": "ESRS 1"
+	},
+	{
+		"id": "138plU1gvuXSXTw2uXJ7Vq",
+		"chapterTitle": "Due diligence",
+		"esrsDocument": "ESRS 1"
+	},
+	{
+		"id": "528ltknWmPCj2fLDgcU1SS",
+		"chapterTitle": "Objective",
+		"esrsDocument": "ESRS 1"
+	},
+	{
+		"id": "1Ktj7f2q6pjl1oCKiv8gXL",
+		"chapterTitle": "Time horizons",
+		"esrsDocument": "ESRS 1"
+	},
+	{
+		"id": "3YEMKT8gvl0SPvFv6Bqiv6",
+		"chapterTitle": "Transitional provisions",
+		"esrsDocument": "ESRS 1"
+	},
+	{
+		"id": "6Y9LmxLbaq4SB9hUbLS5mH",
+		"chapterTitle": "Structure of the sustainability statement",
+		"esrsDocument": "ESRS 1"
+	},
+	{
+		"id": "TvKaiZTUji21UqCkrBeFk",
+		"chapterTitle": "Value chain",
+		"esrsDocument": "ESRS 1"
+	},
+	{
+		"id": "5EKPjnjZUzRWOqPL6iCjbS",
+		"chapterTitle": "Double materiality as the basis for sustainability disclosures",
+		"esrsDocument": "ESRS 1"
+	},
+	{
+		"id": "16rDXaUXJZJChuGtvjunQj",
+		"chapterTitle": "Linkages with other parts of corporate reporting and connected information",
+		"esrsDocument": "ESRS 1"
+	},
+	{
+		"id": "18rLhoRbZ0izqyAgh5Nekx",
+		"chapterTitle": "Qualitative characteristics of information",
+		"esrsDocument": "ESRS 1"
+	},
+	{
+		"id": "5qHkq9H2Un8zWfscqZC9iB",
+		"chapterTitle": "Basis for preparation",
+		"esrsDocument": "ESRS 2"
+	},
+	{
+		"id": "4CHKFe9goKU2T5fm3tycbD",
+		"chapterTitle": "Governance",
+		"esrsDocument": "ESRS 2"
+	},
+	{
+		"id": "s4AhCM2AMx0gkbMAV882R",
+		"chapterTitle": "Objective",
+		"esrsDocument": "ESRS 2"
+	},
+	{
+		"id": "5tkzpNNftHCVzNuj8Ssets",
+		"chapterTitle": "Strategy",
+		"esrsDocument": "ESRS 2"
+	},
+	{
+		"id": "2VYGM3dl7o60s3XJZKFvCC",
+		"chapterTitle": "Impact, risk and opportunity management",
+		"esrsDocument": "ESRS 2"
+	},
+	{
+		"id": "3IfrzuK1rJL1uaQsptOTDp",
+		"chapterTitle": "Metrics and targets",
+		"esrsDocument": "ESRS 2"
+	},
+	{
+		"id": "6j6760EjAmGSW9dWKkI7U",
+		"chapterTitle": "Interactions with other ESRS",
+		"esrsDocument": "ESRS E1"
+	},
+	{
+		"id": "5BOLu8lm8hDMo37aJaZMVa",
+		"chapterTitle": "ESRS 2 General disclosures",
+		"esrsDocument": "ESRS E1"
+	},
+	{
+		"id": "78XZ61g5mNJPSKz10XZtOc",
+		"chapterTitle": "Disclosure Requirement E1-1 - Transition plan for climate change mitigation",
+		"esrsDocument": "ESRS E1"
+	},
+	{
+		"id": "29TDZDW5J7BmtpNauCV95L",
+		"chapterTitle": "Disclosure Requirement E1-2 - Policies related to climate change mitigation and adaptation",
+		"esrsDocument": "ESRS E1"
+	},
+	{
+		"id": "2QcRoYpLD0vsMiv4xGPSTw",
+		"chapterTitle": "Objective",
+		"esrsDocument": "ESRS E1"
+	},
+	{
+		"id": "4g1HAW2PrcWNVuyNhr8ZB6",
+		"chapterTitle": "Disclosure Requirement E1-6 - Gross Scopes 1, 2, 3 and Total GHG emissions",
+		"esrsDocument": "ESRS E1"
+	},
+	{
+		"id": "2v2mFmZf1Z5EE0vfl9b69M",
+		"chapterTitle": "Disclosure Requirement E1-4 - Targets related to climate change mitigation and adaptation",
+		"esrsDocument": "ESRS E1"
+	},
+	{
+		"id": "410TJX07TgFudq4XOBbTfo",
+		"chapterTitle": "Disclosure Requirement E1-5 - Energy consumption and mix",
+		"esrsDocument": "ESRS E1"
+	},
+	{
+		"id": "3nuN1RTzbPZjN5UmkZeO5d",
+		"chapterTitle": "Disclosure Requirement E1-3 - Actions and resources in relation to climate change policies",
+		"esrsDocument": "ESRS E1"
+	},
+	{
+		"id": "4IuvXoh6cbc7T03Qdqp6cR",
+		"chapterTitle": "Disclosure Requirement E1-7 - GHG removals and GHG mitigation projects financed through carbon credits",
+		"esrsDocument": "ESRS E1"
+	},
+	{
+		"id": "6lYpa9GtWQxFblezHssxOE",
+		"chapterTitle": "Disclosure Requirement E1-9 - Anticipated financial effects from material physical and transition risks and potential climate-related opportunities",
+		"esrsDocument": "ESRS E1"
+	},
+	{
+		"id": "6y8L6pw5sDq8XAq2Xg0k3L",
+		"chapterTitle": "Disclosure Requirement E1-8 - Internal carbon pricing",
+		"esrsDocument": "ESRS E1"
+	},
+	{
+		"id": "64vd5JgwOx5pKLoNhLvD3G",
+		"chapterTitle": "Disclosure Requirement E2-5 - Substances of concern and substances of very high concern",
+		"esrsDocument": "ESRS E2"
+	},
+	{
+		"id": "1XrdWIfVvnk1xQkqVqLH7D",
+		"chapterTitle": "Objective",
+		"esrsDocument": "ESRS E2"
+	},
+	{
+		"id": "2lljXYHKM4ThbN1QiLsJ2P",
+		"chapterTitle": "Disclosure Requirement E2-1 - Policies related to pollution",
+		"esrsDocument": "ESRS E2"
+	},
+	{
+		"id": "5BZQm6iZN65tx4xJuIVryN",
+		"chapterTitle": "Interaction with other ESRS",
+		"esrsDocument": "ESRS E2"
+	},
+	{
+		"id": "5xcgiaM5s2GKoRgZcJcXHf",
+		"chapterTitle": "Disclosure Requirement E2-6 - Anticipated financial effects from material pollution-related risks and opportunities",
+		"esrsDocument": "ESRS E2"
+	},
+	{
+		"id": "4cj4qD2eOhngQMF7Hrqpud",
+		"chapterTitle": "Disclosure Requirement E2-2 - Actions and resources related to pollution",
+		"esrsDocument": "ESRS E2"
+	},
+	{
+		"id": "7GK1asjVgt3fcIlFfKsvp5",
+		"chapterTitle": "Disclosure Requirement E2-4 - Pollution of air, water and soil",
+		"esrsDocument": "ESRS E2"
+	},
+	{
+		"id": "Qh98SF3FcifkqN1FdnvpL",
+		"chapterTitle": "ESRS 2 General disclosures",
+		"esrsDocument": "ESRS E2"
+	},
+	{
+		"id": "1uDFdk1BIQFnSBwSHksj17",
+		"chapterTitle": "Disclosure Requirement E2-3 - Targets related to pollution",
+		"esrsDocument": "ESRS E2"
+	},
+	{
+		"id": "7zUOKGTE8ZWbzP8GJGMObe",
+		"chapterTitle": "Interaction with other ESRS",
+		"esrsDocument": "ESRS E3"
+	},
+	{
+		"id": "7Bi0adEVoAeVXGvp9fDPOy",
+		"chapterTitle": "Disclosure Requirement E3-1 - Policies related to water and marine resources",
+		"esrsDocument": "ESRS E3"
+	},
+	{
+		"id": "7gVh4KIjeUp5WrqqDZEIqe",
+		"chapterTitle": "Disclosure Requirement E3-2 - Actions and resources related to water and marine resources",
+		"esrsDocument": "ESRS E3"
+	},
+	{
+		"id": "1CgNg8M6TO9oUVf8zsXilh",
+		"chapterTitle": "ESRS 2 General disclosures",
+		"esrsDocument": "ESRS E3"
+	},
+	{
+		"id": "5aRiaRH47E0b8AfiNFuOYN",
+		"chapterTitle": "Disclosure Requirement E3-4 - Water consumption",
+		"esrsDocument": "ESRS E3"
+	},
+	{
+		"id": "5sjLsKihcWy1BY0U5BfDiG",
+		"chapterTitle": "Objective",
+		"esrsDocument": "ESRS E3"
+	},
+	{
+		"id": "4mcuod0ZoHVXFAWG9REgc7",
+		"chapterTitle": "Disclosure Requirement E3-5 - Anticipated financial effects from material water and marine resources-related risks and opportunities",
+		"esrsDocument": "ESRS E3"
+	},
+	{
+		"id": "5wrLXTTWIZPco2YCn31kVu",
+		"chapterTitle": "Disclosure Requirement E3-3 - Targets related to water and marine resources",
+		"esrsDocument": "ESRS E3"
+	},
+	{
+		"id": "2fEw4MLOvTYB40jSIqAQYK",
+		"chapterTitle": "Objective",
+		"esrsDocument": "ESRS E4"
+	},
+	{
+		"id": "3rgICY5udqviItSrKMeKJj",
+		"chapterTitle": "Disclosure Requirement E4-6 - Anticipated financial effects from material biodiversity and ecosystem-related risks and opportunities",
+		"esrsDocument": "ESRS E4"
+	},
+	{
+		"id": "6QlYueAidxmpkCIFD5XTJD",
+		"chapterTitle": "Interaction with other ESRS",
+		"esrsDocument": "ESRS E4"
+	},
+	{
+		"id": "47MVooHNuL60jDJwf7sZ5R",
+		"chapterTitle": "Disclosure Requirement E4-4 - Targets related to biodiversity and ecosystems",
+		"esrsDocument": "ESRS E4"
+	},
+	{
+		"id": "1ipLjObE9Al3SjclhjYd0o",
+		"chapterTitle": "Disclosure Requirement E4-3 - Actions and resources related to biodiversity and ecosystems",
+		"esrsDocument": "ESRS E4"
+	},
+	{
+		"id": "VII80aOkDdk0nH5xaqPHu",
+		"chapterTitle": "Disclosure Requirement E4-1 - Transition plan and consideration of biodiversity and ecosystems in strategy and business model",
+		"esrsDocument": "ESRS E4"
+	},
+	{
+		"id": "6H4hfm9V57OenW5bHPzXLr",
+		"chapterTitle": "ESRS 2 General disclosures",
+		"esrsDocument": "ESRS E4"
+	},
+	{
+		"id": "6AbalDFOlRa8edELhczuxk",
+		"chapterTitle": "Disclosure Requirement E4-5 - Impact metrics related to biodiversity and ecosystems change",
+		"esrsDocument": "ESRS E4"
+	},
+	{
+		"id": "1jJ43H8HZRPWuOfTjzvJTt",
+		"chapterTitle": "Disclosure Requirement E4-2 - Policies related to biodiversity and ecosystems",
+		"esrsDocument": "ESRS E4"
+	},
+	{
+		"id": "3eLPghevo1SZaxMVKKoxWz",
+		"chapterTitle": "Disclosure Requirement E5-1 - Policies related to resource use and circular economy",
+		"esrsDocument": "ESRS E5"
+	},
+	{
+		"id": "67jNNy8k1ThpPz2BXtqs29",
+		"chapterTitle": "Disclosure Requirement E5-2 - Actions and resources related to resource use and circular economy",
+		"esrsDocument": "ESRS E5"
+	},
+	{
+		"id": "2TX4cm4MQ9fLYzsfyEIJkb",
+		"chapterTitle": "Disclosure Requirement E5-6 - Anticipated financial effects from material resource use and circular economy-related risks and opportunities",
+		"esrsDocument": "ESRS E5"
+	},
+	{
+		"id": "2bJM834nOI3rVbEMgDVYSI",
+		"chapterTitle": "Disclosure Requirement E5-3 - Targets related to resource use and circular economy",
+		"esrsDocument": "ESRS E5"
+	},
+	{
+		"id": "X5sSrmU23KBZd3x82iLLb",
+		"chapterTitle": "Disclosure Requirement E5-4 - Resource inflows",
+		"esrsDocument": "ESRS E5"
+	},
+	{
+		"id": "5AQESaHUBQsPlZF4fp4ZVT",
+		"chapterTitle": "Disclosure Requirement E5-5 - Resource outflows",
+		"esrsDocument": "ESRS E5"
+	},
+	{
+		"id": "5oly9sFfU1TiHn9TiLji8m",
+		"chapterTitle": "Objective",
+		"esrsDocument": "ESRS E5"
+	},
+	{
+		"id": "5NhQGBgDgQ5VPNVndx8Jx8",
+		"chapterTitle": "ESRS 2 General disclosures",
+		"esrsDocument": "ESRS E5"
+	},
+	{
+		"id": "3CnPMiLcSUl3KDnhh1Xurf",
+		"chapterTitle": "Interactions with other ESRS",
+		"esrsDocument": "ESRS E5"
+	},
+	{
+		"id": "5xXt7Xsn5f90zf6DjHMmym",
+		"chapterTitle": "Disclosure Requirement S1-4 - Taking action on material impacts on own workforce, and approaches to managing material risks and pursuing material opportunities related to own workforce, and effectiveness of those actions",
+		"esrsDocument": "ESRS S1"
+	},
+	{
+		"id": "1tRkOqstzItdaXFLUPV6lD",
+		"chapterTitle": "Disclosure Requirement S1-16 - Remuneration metrics (pay gap and total remuneration)",
+		"esrsDocument": "ESRS S1"
+	},
+	{
+		"id": "Z3XlZgAOdtHMwEKRCRjWg",
+		"chapterTitle": "Disclosure Requirement S1-9 - Diversity metrics",
+		"esrsDocument": "ESRS S1"
+	},
+	{
+		"id": "2c3MtHKVVIva0a3fHbyXSV",
+		"chapterTitle": "Disclosure Requirement S1-8 - Collective bargaining coverage and social dialogue",
+		"esrsDocument": "ESRS S1"
+	},
+	{
+		"id": "2i8qLR0VG5v2u1JaDEuPqD",
+		"chapterTitle": "Disclosure Requirement S1-3 - Processes to remediate negative impacts and channels for own workforce to raise concerns",
+		"esrsDocument": "ESRS S1"
+	},
+	{
+		"id": "7rYjYLKepveAXfGbYqyqAD",
+		"chapterTitle": "Objective",
+		"esrsDocument": "ESRS S1"
+	},
+	{
+		"id": "fCCE2qfCMbI1YOFldVrNC",
+		"chapterTitle": "Disclosure Requirement S1-13 - Training and skills development metrics",
+		"esrsDocument": "ESRS S1"
+	},
+	{
+		"id": "1EgKSMYqyMGKZOG7Ct0PXt",
+		"chapterTitle": "Disclosure Requirement S1-6 - Characteristics of the undertaking’s employees",
+		"esrsDocument": "ESRS S1"
+	},
+	{
+		"id": "18WWi2NV5cN1WN7tGWWX1f",
+		"chapterTitle": "Disclosure Requirement S1-10 - Adequate wages",
+		"esrsDocument": "ESRS S1"
+	},
+	{
+		"id": "28c2j5v149DmBkTUfXn2J2",
+		"chapterTitle": "Disclosure Requirement S1-14 - Health and safety metrics",
+		"esrsDocument": "ESRS S1"
+	},
+	{
+		"id": "6pTUTRgmsPhZ5UlMicuxE1",
+		"chapterTitle": "Disclosure Requirement S1-7 - Characteristics of non-employees in the undertaking’s own workforce",
+		"esrsDocument": "ESRS S1"
+	},
+	{
+		"id": "4ejpkoYWcCepCIPEh1bZhr",
+		"chapterTitle": "Disclosure Requirement S1-17 - Incidents, complaints and severe human rights impacts",
+		"esrsDocument": "ESRS S1"
+	},
+	{
+		"id": "7lfjaz9AOPWGfQsISIM62f",
+		"chapterTitle": "Disclosure Requirement S1-1 - Policies related to own workforce",
+		"esrsDocument": "ESRS S1"
+	},
+	{
+		"id": "3t2y41n9K6Zj1x2iOjv7sL",
+		"chapterTitle": "Disclosure Requirement S1-11 - Social protection",
+		"esrsDocument": "ESRS S1"
+	},
+	{
+		"id": "1PC2XOGGoukA8dy7ywBQOl",
+		"chapterTitle": "Disclosure Requirement S1-12- Persons with disabilities",
+		"esrsDocument": "ESRS S1"
+	},
+	{
+		"id": "hwM2Z8yzFl7NMRgzIqbJu",
+		"chapterTitle": "ESRS 2 General disclosures",
+		"esrsDocument": "ESRS S1"
+	},
+	{
+		"id": "6GdV2czeMsc9eJnj9K3waR",
+		"chapterTitle": "Interaction with other ESRS",
+		"esrsDocument": "ESRS S1"
+	},
+	{
+		"id": "72lEXODiBfYdO5jYmUtmiH",
+		"chapterTitle": "Disclosure Requirement S1-15 - Work-life balance metrics",
+		"esrsDocument": "ESRS S1"
+	},
+	{
+		"id": "1OM3JRe14ZeNdvsUaqc7sC",
+		"chapterTitle": "Disclosure Requirement S1-2 - Processes for engaging with own workforce and workers’ representatives about impacts",
+		"esrsDocument": "ESRS S1"
+	},
+	{
+		"id": "5V8qfJlVJISXnp7HPUjaHb",
+		"chapterTitle": "Disclosure Requirement S1-5 - Targets related to managing material negative impacts, advancing positive impacts, and managing material risks and opportunities",
+		"esrsDocument": "ESRS S1"
+	},
+	{
+		"id": "5QBReLVJ2XJGdAd6VhHH0r",
+		"chapterTitle": "Objective",
+		"esrsDocument": "ESRS S2"
+	},
+	{
+		"id": "2kjTI3rVZ8GOzRuhF3Nl62",
+		"chapterTitle": "Disclosure Requirement S2-5 - Targets related to managing material negative impacts, advancing positive impacts, and managing material risks and opportunities",
+		"esrsDocument": "ESRS S2"
+	},
+	{
+		"id": "3gUl6Brx2RPM4yZ3txK7Nc",
+		"chapterTitle": "Disclosure Requirement S2-1 - Policies related to value chain workers",
+		"esrsDocument": "ESRS S2"
+	},
+	{
+		"id": "5qXNQ3l8zYkB5iwdfJHwSw",
+		"chapterTitle": "Disclosure Requirement S2-2 - Processes for engaging with value chain workers about impacts",
+		"esrsDocument": "ESRS S2"
+	},
+	{
+		"id": "2Pf1BhmFxPdzbYJ9Ei9a7a",
+		"chapterTitle": "Interaction with other ESRS",
+		"esrsDocument": "ESRS S2"
+	},
+	{
+		"id": "2RxzZuPVocJCz625I4sKLr",
+		"chapterTitle": "Disclosure Requirement S2-3 - Processes to remediate negative impacts and channels for value chain workers to raise concerns",
+		"esrsDocument": "ESRS S2"
+	},
+	{
+		"id": "5l5w824nX3wREumfnm8428",
+		"chapterTitle": "Disclosure Requirement S2-4 - Taking action on material impacts on value chain workers, and approaches to managing material risks and pursuing material opportunities related to value chain workers, and effectiveness of those actions",
+		"esrsDocument": "ESRS S2"
+	},
+	{
+		"id": "2l6ITZLTjgqEpzfxzJIm5n",
+		"chapterTitle": "ESRS 2 General disclosures",
+		"esrsDocument": "ESRS S2"
+	},
+	{
+		"id": "4eTQWD5lpC9qsEW2DzelRW",
+		"chapterTitle": "Disclosure Requirement S3-2 - Processes for engaging with affected communities about impacts",
+		"esrsDocument": "ESRS S3"
+	},
+	{
+		"id": "13oi9kOd0ZBf17B5OAKMzk",
+		"chapterTitle": "Disclosure Requirement S3-4 - Taking action on material impacts on affected communities, and approaches to managing material risks and pursuing material opportunities related to affected communities, and effectiveness of those actions",
+		"esrsDocument": "ESRS S3"
+	},
+	{
+		"id": "3Q2y9iEMpJWvWV0MvYVfVI",
+		"chapterTitle": "Disclosure Requirement S3-1 - Policies related to affected communities",
+		"esrsDocument": "ESRS S3"
+	},
+	{
+		"id": "3MrhhHQwAuAAg14F44xc1G",
+		"chapterTitle": "Disclosure Requirement S3-5 - Targets related to managing material negative impacts, advancing positive impacts, and managing material risks and opportunities",
+		"esrsDocument": "ESRS S3"
+	},
+	{
+		"id": "5xqhWM3X2APlMadxkv4fMz",
+		"chapterTitle": "ESRS 2 General disclosures",
+		"esrsDocument": "ESRS S3"
+	},
+	{
+		"id": "7dKhhtB8J6EjFKKNcT8vkR",
+		"chapterTitle": "Interaction with other ESRS",
+		"esrsDocument": "ESRS S3"
+	},
+	{
+		"id": "6H7vYDEGrnpHz8KggotMAv",
+		"chapterTitle": "Disclosure Requirement S3-3 - Processes to remediate negative impacts and channels for affected communities to raise concerns",
+		"esrsDocument": "ESRS S3"
+	},
+	{
+		"id": "6plGyxLcaU2CP267uq35ye",
+		"chapterTitle": "Objective",
+		"esrsDocument": "ESRS S3"
+	},
+	{
+		"id": "7lXoQ3lRpMjWDnELitZd9X",
+		"chapterTitle": "Disclosure Requirement S4-5 - Targets related to managing material negative impacts, advancing positive impacts, and managing material risks and opportunities",
+		"esrsDocument": "ESRS S4"
+	},
+	{
+		"id": "42ET13GnsNpbB0SSSmngbo",
+		"chapterTitle": "Disclosure Requirement S4-3 - Processes to remediate negative impacts and channels for consumers and end-users to raise concerns",
+		"esrsDocument": "ESRS S4"
+	},
+	{
+		"id": "2O13kNz6UYazxjMVi4eIYS",
+		"chapterTitle": "Disclosure Requirement S4-2 - Processes for engaging with consumers and end-users about impacts",
+		"esrsDocument": "ESRS S4"
+	},
+	{
+		"id": "3WwmNlzNbSJP0sHeiCEoJn",
+		"chapterTitle": "Disclosure Requirement S4-1 - Policies related to consumers and end-users",
+		"esrsDocument": "ESRS S4"
+	},
+	{
+		"id": "4IZZxCRUb7cpxbAPdoEZKY",
+		"chapterTitle": "Disclosure Requirement S4-4 - Taking action on material impacts on consumers and end- users, and approaches to managing material risks and pursuing material opportunities related to consumers and end-users, and effectiveness of those actions",
+		"esrsDocument": "ESRS S4"
+	},
+	{
+		"id": "4cq5tJbjy0LzHzfrZrK47P",
+		"chapterTitle": "Interaction with other ESRS",
+		"esrsDocument": "ESRS S4"
+	},
+	{
+		"id": "116P6A5ZjAWinLaXQAjN8M",
+		"chapterTitle": "ESRS 2 General Disclosures",
+		"esrsDocument": "ESRS S4"
+	},
+	{
+		"id": "UEr9mEU5n8FW2u4JkHdL9",
+		"chapterTitle": "Objective",
+		"esrsDocument": "ESRS S4"
+	},
+	{
+		"id": "5uehumedqF3RIMwCyZlUyI",
+		"chapterTitle": "Disclosure Requirement G1-6 - Payment practices",
+		"esrsDocument": "ESRS G1"
+	},
+	{
+		"id": "3fxLFghIgiO6JGcPUNzt8h",
+		"chapterTitle": "Interaction with other ESRS",
+		"esrsDocument": "ESRS G1"
+	},
+	{
+		"id": "uBS9hkmnAeyErnt5Iv4Nq",
+		"chapterTitle": "Disclosure Requirement G1-4 - Incidents of corruption or bribery",
+		"esrsDocument": "ESRS G1"
+	},
+	{
+		"id": "3PVlgZ87o6I1X1Lnzm0PlN",
+		"chapterTitle": "Objective",
+		"esrsDocument": "ESRS G1"
+	},
+	{
+		"id": "MXRIjaNmejuZ7j3H5bq0X",
+		"chapterTitle": "ESRS 2 - General Disclosures",
+		"esrsDocument": "ESRS G1"
+	},
+	{
+		"id": "36PjqgJHbnzrCXl8uopdcz",
+		"chapterTitle": "Disclosure Requirement G1-5 - Political influence and lobbying activities",
+		"esrsDocument": "ESRS G1"
+	},
+	{
+		"id": "4VEbA3ZNRXqg68QSSkhL5K",
+		"chapterTitle": "Disclosure Requirement G1-2 - Management of relationships with suppliers",
+		"esrsDocument": "ESRS G1"
+	},
+	{
+		"id": "3Ijypb8NuvxFOmLM4TWEFD",
+		"chapterTitle": "Disclosure Requirement G1-1 - Business conduct policies and corporate culture",
+		"esrsDocument": "ESRS G1"
+	},
+	{
+		"id": "1oYQLMicft6acUZ3jMP2bo",
+		"chapterTitle": "Disclosure Requirement G1-3 - Prevention and detection of corruption and bribery",
+		"esrsDocument": "ESRS G1"
+	}
+]
