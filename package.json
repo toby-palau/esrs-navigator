@@ -11,7 +11,7 @@
 		"test": "vitest",
 		"lint": "prettier --check . && eslint .",
 		"format": "prettier --write . --plugin=prettier-plugin-svelte --plugin=prettier-plugin-tailwindcss",
-		"contentful:script": "npx tsx ./contentful/createParagraphs.ts"
+		"contentful:script": "npx tsx ./contentful/updateParagraphs.ts"
 	},
 	"devDependencies": {
 		"@sveltejs/adapter-auto": "^3.0.0",
@@ -23,7 +23,7 @@
 		"autoprefixer": "^10.4.16",
 		"contentful-cli": "^3.1.41",
 		"contentful-import": "^9.4.26",
-		"contentful-management": "^11.14.1",
+		"contentful-management": "^11.14.3",
 		"daisyui": "^4.6.0",
 		"dotenv": "^16.3.1",
 		"eslint": "^8.56.0",
